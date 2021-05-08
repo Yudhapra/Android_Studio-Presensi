@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#89C3AE"
+    android:orientation="vertical"
+    tools:context=".Utama">
+
+    <WebView
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="696dp"
+        android:baselineAligned="false" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/ext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="220dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#126363"
+            android:insetTop="4dp"
+            android:insetBottom="4dp"
+            android:onClick="keluar"
+            android:text="Keluar"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/bck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="220dp"
+            android:backgroundTint="#126363"
+            android:insetTop="4dp"
+            android:insetBottom="4dp"
+            android:onClick="back"
+            android:text="Kembali"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>
